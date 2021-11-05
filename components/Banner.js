@@ -1,9 +1,9 @@
 import fetchBannerText from '@content/fetchBannerText'
 
-const res = await fetchBannerText()
-console.log(res)
-
-function Banner() {
+async function Banner() {
+	const res = await fetchBannerText()
+	console.log(res)
+	
 	return (
 		<h1>test</h1>
 	)
