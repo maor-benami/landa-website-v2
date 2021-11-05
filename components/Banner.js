@@ -1,7 +1,7 @@
-import fetchBannerText from '@content/fetchBannerText'
+import { fetchEntries } from '@content/fetchBannerText'
 
 async function Banner() {
-	const res = await fetchBannerText()
+	const res = await fetchEntries()
 	console.log(res)
 	
 	return (
