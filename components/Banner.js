@@ -1,6 +1,7 @@
 import fetchBannerText from '@content/fetchBannerText'
 
-console.log(fetchBannerText)
+const res = await fetchBannerText()
+console.log(res)
 
 function Banner() {
 	return (
